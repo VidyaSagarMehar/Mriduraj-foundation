@@ -15,7 +15,7 @@
 <body>
     <script src="./script.js" defer></script>
     <!-- Hearder starts here -->
-    <header class="text-gray-600 body-font">
+    <header class="text-gray-600 body-font sticky top-0 bg-white z-50">
         <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
             <!-- Logo and Home link -->
             <a href="./index.html"
@@ -75,7 +75,7 @@
                     <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Our Vision
                     </h1>
                     <div class="flex mb-4">
-                        <a class="flex-grow text-primary border-b-2 border-primary py-2 text-lg px-1">Description</a>
+                        <a class="flex-grow text-secondary border-b-2 border-primary py-2 text-lg px-1">Description</a>
                     </div>
                     <p class="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric
                         sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage
@@ -133,16 +133,17 @@
     </section>
     <!-- Future Programs page ends -->
     <!-- Footer Stas Here -->
-    <!-- TODO: Need to fix the anchor tag for contact, about ...-->
-    <footer class="bg-theme2 text-gray-900 mt-40">
+    <!-- TODO: DO NOT DIRECTLY PASTE THE ENTIRE FOOTER TO OTHER PAGES.. NEED TO CHECK THE MARGINE -->
+    <footer class="bg-theme2 text-gray-900 mt-auto">
         <div class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-600">
             <ul
                 class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
                 <li><b>&copy</b> Mriduraj Foundation</li>
-                <li class="md:border-l md:border-gray-400 "><span class="ml-6">About Us</span></li>
-                <li>Blog</li>
-                <li>Pricing</li>
-                <li>Contact</li>
+                <li class="md:border-l md:border-gray-400 "><span class="ml-6"><a href="./about.html">About
+                            Us</a></span></li>
+
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./donate.html">Donate</a></li>
             </ul>
             <div class="flex flex-col justify-center pt-6 lg:pt-0">
                 <div class="flex justify-center space-x-4">
@@ -162,7 +163,8 @@
                             </path>
                         </svg>
                     </a>
-                    <a rel="noopener noreferrer" href="#" title="Facebook"
+                    <a rel="noopener noreferrer" target="_blank"
+                        href="https://www.facebook.com/share/KDKMLrvK6CGrqMie/?mibextid=qi2Omg" title="Facebook"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-primary text-gray-50">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-4 h-4">
                             <path
