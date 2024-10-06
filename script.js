@@ -18,9 +18,9 @@ document.getElementById('menu-toggle').addEventListener('click', function () {
 });
 
 // Automate Email
-let UserId = 'pls0NGWY59ndyDqPx';
-let ServiceId = 'service_e903l2h';
-let TemplateId = 'template_n0jtfsh';
+let UserId = 'gkCyWkrtqpdiyI563';
+let ServiceId = 'service_s28txk3';
+let TemplateId = 'template_vx41o2j';
 
 (function () {
 	emailjs.init(UserId);
